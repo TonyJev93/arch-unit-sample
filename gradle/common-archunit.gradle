@@ -1,0 +1,4 @@
+dependencies {
+    // archUnit
+    testImplementation 'com.tngtech.archunit:archunit-junit5:0.17.0'
+}

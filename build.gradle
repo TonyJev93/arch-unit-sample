@@ -18,6 +18,8 @@ repositories {
     mavenCentral()
 }
 
+apply from: rootProject.file('gradle/common-archunit.gradle')
+
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     compileOnly 'org.projectlombok:lombok'
