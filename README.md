@@ -36,10 +36,10 @@
 ```java
 public class MyArchitectureTest {
 
-    private JavaClasses myClasses;
+    private static JavaClasses myClasses;
 
-    @Before
-    public void setUp() {
+    @BeforeAll
+    public static void setUp() {
         myClasses = new ClassFileImporter().importPackages("com.example");
     }
 
